@@ -16,14 +16,15 @@ quizzerControllers.controller('MainCtrl', ['$scope', '$http',
 
   	var notaAprobado=0.7;
 
-  	
+  	/*
 	    $http.get('quizz.json').success(function(data) {
 	      $scope.questions = data;
 	    });
+	 */
 	
 
 
-/*
+
 	$scope.questions=[
 		{
 			title:'Como se sirve un cafe cat?',
@@ -157,7 +158,7 @@ quizzerControllers.controller('MainCtrl', ['$scope', '$http',
 
 		}
 	];
-	*/
+	
 
 
 	$scope.currentQuestion=-1;
