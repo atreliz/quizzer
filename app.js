@@ -5,27 +5,6 @@ var quizzerApp = angular.module('quizzerApp', [
 ]);
 
 
-//ROUTING
-
-
-/*
-quizzerApp.config(['$routeProvider',
-  function($routeProvider) {
-    $routeProvider.
-      when('/phones', {
-        templateUrl: 'partials/phone-list.html',
-        controller: 'PhoneListCtrl'
-      }).
-      when('/phones/:phoneId', {
-        templateUrl: 'partials/phone-detail.html',
-        controller: 'PhoneDetailCtrl'
-      }).
-      otherwise({
-        redirectTo: '/phones'
-      });
-  }]);
-
-*/
 
 //CONTROLLERS
 
@@ -37,14 +16,14 @@ quizzerControllers.controller('MainCtrl', ['$scope', '$http',
 
   	var notaAprobado=0.7;
 
-  	/*
+  	
 	    $http.get('quizz.json').success(function(data) {
 	      $scope.questions = data;
 	    });
-	*/
+	
 
 
-
+/*
 	$scope.questions=[
 		{
 			title:'Como se sirve un cafe cat?',
@@ -178,6 +157,7 @@ quizzerControllers.controller('MainCtrl', ['$scope', '$http',
 
 		}
 	];
+	*/
 
 
 	$scope.currentQuestion=-1;
