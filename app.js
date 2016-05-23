@@ -17,7 +17,7 @@ quizzerControllers.controller('MainCtrl', ['$scope', '$http',
   	var notaAprobado=0.7;
 
   	
-	    $http.get('quizz2.json').success(function(data) {
+	    $http.get('/quizz2.json').success(function(data) {
 	      $scope.questions = data;
 	    });
 	 
