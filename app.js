@@ -17,7 +17,7 @@ quizzerControllers.controller('MainCtrl', ['$scope', '$http',
   	var notaAprobado=0.7;
 
   	
-	    $http.get('./quizzer/quizz2.json').success(function(data) {
+	    $http.get('http://atreliz.github.io/quizzer/quizz2.json').success(function(data) {
 	      $scope.questions = data;
 	    });
 	 
