@@ -16,11 +16,12 @@ quizzerControllers.controller('MainCtrl', ['$scope', '$http',
 
   	var notaAprobado=0.7;
 
-  	/*
+  	
 	    $http.get('quizz.json').success(function(data) {
-	      $scope.questions = data;
+	      //$scope.questions = data;
+	      console.log(data);
 	    });
-	 */
+	 
 	
 
 
